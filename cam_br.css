@@ -1,0 +1,462 @@
+/* 
+
+COMPLETAR O CÓDIGO PREENCHENDO CADA SELETOR 
+DE ACORDO COM O ARQUIVO STYLE_CSS_COMPLETO.TIF
+
+*/
+
+body {
+    margin: 0px 0px 0px -70px;
+    padding: 0px;
+    background-color: rgba(229,223,223,0.2);
+    font-size: 13px;
+    font-family: arial, helvetica, sans-serif;
+    color: #000;
+}
+
+h1,h2,h3 {
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+p,ol,ul {
+    margin-bottom: 1.8em;
+    line-height: 160%;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* wrapper */
+
+#wrapper {
+    width: 900px;
+    height: auto;
+    margin: 30px auto 20px auto;
+    background-color: rgba(243,345,247,.1);
+}
+
+/* Header */
+
+#header {
+    width: 970px;
+    height: 90px;
+    background-color: #014EFF;
+    position: relative;
+    border-radius: 7px;
+}
+
+/* logo */
+
+#logo img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 10px 0px 0px 10px;
+    margin-top: -5px;
+	max-width: 100%;
+	transition: all 0.3s;
+}
+
+.logo:hover img {
+	transform: scale(1.1);
+}
+
+/* menu */
+
+#menu {
+    line-height: normal;
+    margin-left: 50px;
+}
+
+#menu ul {
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+}
+
+#menu ul li {
+    position: relative;
+    text-align: center;
+    background-color: #014EFF;
+    margin-top: auto;
+    margin-left: 16px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    width: 90px;
+    height: 40px;
+    padding: 12px 20px 0px 20px;
+    margin: 10px 30px 10px 0px;
+}
+
+
+#menu ul ul {
+    position: absolute;
+    left:-50px;
+    top:80px;
+    display: none;
+    text-align: center;
+    width: 0px;
+}
+
+#menu ul li:hover > ul{ 
+    display: block;
+    line-height: normal;
+}
+
+
+#menu li {
+    float: left;
+    margin: 0px 0px 0px 1px;
+    padding: 10px 0px 0px 0px;
+}
+
+#baixo li {
+    float: left;
+    margin: 0px 0px 0px 1px;
+}
+
+#baixo2 li {
+    float: left;
+    margin: 0px 0px 0px 1px;
+    padding: 10px;
+}
+
+#baixo a {
+    border: 2px solid #000;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    margin: 1px;
+}
+
+#baixo2 a {
+    border: 2px solid #000;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-style: ;
+    font-size: 18px;
+    display: block;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    margin: -1px -9px -9px -9px;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: rgb(208, 200, 200);
+}
+
+/* page */
+
+#page {
+    width: 900px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+/* Content */
+
+#content {
+    float:right;
+    width: 570px;
+}
+
+.post1 {
+
+}
+
+table {
+	margin: 0px 0px 0px 30px;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+}
+
+.nome {
+	padding: 10px 0px;
+}
+
+.cap{
+	height: 35px;
+	margin: -10px 0px -10px 0px;
+}
+
+.go{
+	height: 35px;
+	margin: -10px 0px -10px 0px;
+}
+
+.mg{
+	height: 35px;
+	margin: -10px 0px -10px 0px;
+}
+
+.ba{
+	margin: -10px 0px -10px 0px;
+	height: 40px;
+}
+
+.bot{
+	margin: -10px 0px -10px 0px;;
+	height: 35px;
+}
+
+.bra{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.cea{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.cor{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.cori{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.fla{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.flu{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.fort{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.goias{
+	margin: -10px 0px -10px 0px;
+	height: 30px;
+}
+
+.gre{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.int{
+	margin: -10px 0px -10px 0px;
+	height: 30px;
+}
+
+.pal{
+	margin: -10px 0px -10px 0px;
+	height: 30px;
+}
+
+.san{
+	margin: -10px 0px -10px 0px;
+	height: 33px;
+}
+
+.sp{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.sport{
+	margin: -10px 0px -10px 0px;
+	height: 35px;
+}
+
+.vas{
+	margin: -10px 0px -10px 0px;
+	height: 30px;
+}
+
+.p {
+	padding: 0px 0px 0px 210px; 
+}
+
+.j {
+	padding: 0px 10px 0px 10px;
+}
+
+.v {
+	padding: 0px 10px 0px 10px;
+}
+
+.e {
+	padding: 0px 10px 0px 10px;
+}
+
+.gp {
+	padding: 0px 10px 0px 4px;
+}
+
+.gs {
+	padding: 0px 10px 0px 4px;
+}
+
+.sg {
+	padding: 0px 10px 0px 4px;
+}
+
+.foto-legenda {
+    padding-bottom:0px;
+}
+
+.foto-legenda img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.foto-legenda figcaption {
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.foto-legenda2 {
+    position: relative;
+}
+
+.foto-legenda2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.foto-legenda2 figcaption {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,.4);
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    float: left;
+    width: 300px;
+}
+
+#sidebar-content {
+    padding: 5px;
+}
+
+#sidebar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#sidebar li ul {
+    margin-bottom: 1.8em;
+    padding-left: 20px;
+    list-style: none;
+}
+
+#sidebar h2 {
+    padding: 4px 20px;
+    background: #014EFF;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Search */
+
+#search form {
+    margin-bottom: 1.8em;
+    padding: 0px;
+}
+
+#search fieldset {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+#search #s {
+    width: 160px;
+}
+
+/* Footer */
+
+#footer {
+    border-radius: 7px;
+    width: 970px;
+    height: 100px;
+    color: #fff;
+    background: #014EFF;
+    clear: both;
+    margin: auto;
+}
+
+#footer img {
+	float: left;
+    width: 90px;
+    height: 90px;
+}
+
+#footer p {
+    text-align: center;
+    margin: 20px;
+    padding: 19px 0px 0px 0px;
+    line-height: normal;
+    font-size: smaller;
+}
+
+#footer a {
+    color: #fff;
+}
